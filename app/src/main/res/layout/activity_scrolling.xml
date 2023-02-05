@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".home.ScrollingActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".home.ScrollingActivity"
+        tools:showIn="@layout/activity_scrolling">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/teal_200"
+            android:orientation="vertical">
+
+            // List item
+            <View
+                android:layout_height="46dp"
+                android:layout_width="match_parent" />
+
+
+            <LinearLayout
+                android:background="@drawable/custom_border"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_width="wrap_content"
+                    android:text="@string/content_welcome"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <include
+                    android:id="@+id/ask"
+                    layout="@layout/category_ask" />
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/love"
+                        layout="@layout/category_love" />
+
+                    <include
+                        android:id="@+id/felling"
+                        layout="@layout/category_feeling" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/fun"
+                        layout="@layout/category_fun" />
+
+                    <include
+                        android:id="@+id/communication"
+                        layout="@layout/category_communication" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <include layout="@layout/category_ads" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/study"
+                        layout="@layout/category_study" />
+
+                    <include
+                        android:id="@+id/job"
+                        layout="@layout/category_job" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/advice"
+                        layout="@layout/category_advice" />
+
+                    <include
+                        android:id="@+id/food"
+                        layout="@layout/category_food" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            //bottom layout
+
+            <View
+                android:layout_height="32dp"
+                android:layout_width="match_parent" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Desygner AI</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+    </string>
+    <string name="content_welcome">What are you interested in today?</string>
+    <string name="try_now">TRY NOW</string>
+    <string name="free_ai">FREE AI</string>
+    <string name="title_ask">Ask me anything!</string>
+    <string name="title_love">Love affairs</string>
+    <string name="title_feelings">Feelings</string>
+    <string name="title_fun">Fun</string>
+    <string name="title_communication">Communication</string>
+    <string name="title_study">Study</string>
+    <string name="title_job">Job</string>
+    <string name="title_advice">Business Advice</string>
+    <string name="title_food">Food</string>
+    <string name="title_ads">why is water important to humans?</string>
+
+
+    <string name="ask_content">From love letters to solving complex equations, I have got you covered!</string>
+    <string name="love_content">Love and break up letters, Tinder profiles and more</string>
+    <string name="feelings_content">A friend to help you through difficulties</string>
+    <string name="fun_content">Let loose and have some fun! Stories, games, friend, chats…</string>
+    <string name="communication_content">Easy way to say something that is really hard to say</string>
+    <string name="study_content">Ace your next assignment with our homework helper</string>
+    <string name="job_content">Land that job with practice interview question and more</string>
+    <string name="advice_content">Advice to ensure your business successful</string>
+    <string name="food_content">Fun food challenges and cooking advice</string>
+    <string name="ads_content">Water helps dissolve minerals and nutrients, making them more accessible to the body. It also helps remove waste products. Drinking Water Helps Maintain the Balance of Body Fluids.</string>
+
+    <string name="content_choose">Choose one,I have the answer to any topic!</string>
+
+
+    //Love
+    <string name="love_option_01">Ask someone an a date</string>
+    <string name="love_option_02">Compile my Tinder profile</string>
+    <string name="love_option_03">Write me a love letter to my crush</string>
+    <string name="love_option_04">Write me a break up message</string>
+    <string name="love_option_05">Other</string>
+
+    //Feeling
+    <string name="feeling_option_01">How do I tell my parents that…</string>
+    <string name="feeling_option_02">Write a message to my friend that…</string>
+    <string name="feeling_option_03">How do I tell my significant other…</string>
+    <string name="feeling_option_04">Write a letter to my teacher that…</string>
+    <string name="feeling_option_05">Other</string>
+
+    //Fun
+    <string name="fun_option_01">Guess the movie game</string>
+    <string name="fun_option_02">Create your own horror stories</string>
+    <string name="fun_option_03">Chat with sarcastic Marv</string>
+    <string name="fun_option_04">Joke generator</string>
+    <string name="fun_option_05">Other</string>
+
+    // Communication
+    <string name="communication_option_01">Friend chat</string>
+    <string name="communication_option_02">Respond to a difficult message</string>
+    <string name="communication_option_03">Help me support someone</string>
+    <string name="communication_option_04">Tell someone a hard truth</string>
+    <string name="communication_option_05">Write a greeting card</string>
+    <string name="communication_option_06">Compile a poem</string>
+    <string name="communication_option_07">Write captions for your Social Media</string>
+    <string name="communication_option_08">Other</string>
+
+    //Study
+    <string name="study_option_01">Summaries my notes</string>
+    <string name="study_option_02">Solve maths equations</string>
+    <string name="study_option_03">Paraphrase anything</string>
+    <string name="study_option_04">Explain a concept to me</string>
+    <string name="study_option_05">Other</string>
+
+    //Job
+    <string name="job_option_01">Generate my cover letter</string>
+    <string name="job_option_02">Practice interview questions</string>
+    <string name="job_option_03">Ask my boss…</string>
+    <string name="job_option_04">LinkedIn profile</string>
+    <string name="job_option_05">Reword CV</string>
+    <string name="job_option_06">Other</string>
+
+    //Advice
+    <string name="advice_option_01">Ad from product description</string>
+    <string name="advice_option_02">Write long marketing copy</string>
+    <string name="advice_option_03">Find trending tags</string>
+    <string name="advice_option_04">Product name generator</string>
+    <string name="advice_option_05">Other</string>
+
+    // Food
+    <string name="food_option_01">Recipe creator</string>
+    <string name="food_option_02">Choose my meal</string>
+    <string name="food_option_03">Find ingredients for any dish </string>
+    <string name="food_option_04">Write a restaurant review</string>
+    <string name="food_option_05">Other</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name_bot">Bot AI</string>
+    <string name="text_hint">Ask me anything…</string>
+
+</resources>
