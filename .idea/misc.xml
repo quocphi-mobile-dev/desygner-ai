@@ -21,6 +21,7 @@
         <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.10156768839681643" />
         <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.10032557920028604" />
         <entry key="app/src/main/res/layout/activity_advice.xml" value="0.11980749746707194" />
+        <entry key="app/src/main/res/layout/activity_ask.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.20758972167968756" />
         <entry key="app/src/main/res/layout/activity_communication.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/activity_feeling.xml" value="0.11980749746707194" />
@@ -47,6 +48,7 @@
         <entry key="app/src/main/res/layout/message_incoming.xml" value="0.26955725951035336" />
         <entry key="app/src/main/res/layout/messages_outgoing.xml" value="0.11930091185410334" />
         <entry key="app/src/main/res/menu/menu_scrolling.xml" value="0.14444444444444443" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>
   </component>

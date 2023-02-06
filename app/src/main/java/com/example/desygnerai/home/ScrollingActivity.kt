@@ -24,10 +24,13 @@ class ScrollingActivity : AppCompatActivity() {
         binding = ActivityScrollingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.love.categoryLove.setOnClickListener {
-//            val intent = Intent(this, LoveActivity::class.java)
-//            startActivity(intent)
+        binding.ask.categoryAsk.setOnClickListener {
             val intent = Intent(this, ChatActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.love.categoryLove.setOnClickListener {
+            val intent = Intent(this, LoveActivity::class.java)
             startActivity(intent)
         }
 

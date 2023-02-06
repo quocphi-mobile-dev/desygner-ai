@@ -8,7 +8,7 @@ object RetrofitHelper {
     private val client = OkHttpClient.Builder().build()
 
     fun getInstance(): Retrofit {
-        return Retrofit.Builder().baseUrl("http://34.130.40.208:5000/generate_completion/")
+        return Retrofit.Builder().baseUrl("http://34.130.40.208:5000/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build()

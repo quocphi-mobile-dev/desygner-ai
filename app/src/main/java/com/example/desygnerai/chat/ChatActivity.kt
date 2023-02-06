@@ -20,8 +20,6 @@ class ChatActivity : AppCompatActivity() {
         binding = ActivityChatBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        val mAdapter = ChatAdapter(this@ChatActivity, mMessages)
-//        binding.rvChat.adapter = mAdapter
 
         val sendAPI = RetrofitHelper.getInstance().create(API::class.java)
         val prompt = Prompt("Hom nay an gi")

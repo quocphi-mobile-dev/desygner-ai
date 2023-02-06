@@ -10,6 +10,6 @@ import retrofit2.http.POST
 
 interface API {
     @Headers("Content-Type: text/plain")
-    @POST(".")
+    @POST("/generate_completion")
     fun createQuestion(@Body dataModal: Prompt): Call<Message>
 }
