@@ -45,7 +45,8 @@
         <entry key="app/src/main/res/layout/category_love.xml" value="0.1" />
         <entry key="app/src/main/res/layout/category_study.xml" value="0.11930091185410334" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/message_incoming.xml" value="0.26955725951035336" />
+        <entry key="app/src/main/res/layout/message_incoming.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/message_outgoing.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/messages_outgoing.xml" value="0.11930091185410334" />
         <entry key="app/src/main/res/menu/menu_scrolling.xml" value="0.14444444444444443" />
         <entry key="app/src/main/res/xml/network_security_config.xml" value="0.1" />

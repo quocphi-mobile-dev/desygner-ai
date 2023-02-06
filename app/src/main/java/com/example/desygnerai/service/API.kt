@@ -9,7 +9,7 @@ import retrofit2.http.POST
 
 
 interface API {
-    @Headers("Content-Type: text/plain")
+    @Headers("Content-Type: application/json", "Accept: */*")
     @POST("/generate_completion")
     fun createQuestion(@Body dataModal: Prompt): Call<Message>
 }
