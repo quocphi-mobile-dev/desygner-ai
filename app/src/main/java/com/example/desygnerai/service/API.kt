@@ -1,7 +1,7 @@
 package com.example.desygnerai.service
 
-import com.example.desygnerai.chat.Message
-import com.example.desygnerai.chat.Prompt
+import com.example.desygnerai.chat.model.Message
+import com.example.desygnerai.chat.model.Prompt
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.Headers

@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.desygnerai.R
+import com.example.desygnerai.chat.model.Message
 
 
 class ChatAdapter(context: Context, messages: List<Message>) :

@@ -41,9 +41,11 @@
 
             <EditText
                 android:id="@+id/textInput"
+                android:textColor="@color/black"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColorHint="@color/black_600"
                 android:background="@drawable/custom_border_input"
                 android:hint="@string/text_hint"
                 android:maxHeight="400dp"

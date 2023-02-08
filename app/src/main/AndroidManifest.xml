@@ -17,43 +17,14 @@
         android:theme="@style/Theme.DesygnerAI.NoActionBar"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-
+        <activity
+            android:name=".content.ContentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
         <activity
             android:name=".chat.ChatActivity"
             android:exported="false"
             android:theme="@style/Theme.DesygnerAI.NoActionBar" />
-        <activity
-            android:name=".FoodActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
-        <activity
-            android:name=".AdviceActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
-        <activity
-            android:name=".JobActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
-        <activity
-            android:name=".StudyActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
-        <activity
-            android:name=".CommunicationActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
-        <activity
-            android:name=".FunActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
-        <activity
-            android:name=".FeelingActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
-        <activity
-            android:name=".LoveActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DesygnerAI.NoActionBar2" />
         <activity
             android:name=".home.ScrollingActivity"
             android:exported="true"

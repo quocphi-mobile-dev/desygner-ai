@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.135" />
         <entry key="app/src/main/res/drawable/chat_gradient.xml" value="0.141" />
         <entry key="app/src/main/res/drawable/color_cursor.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/custom.xml" value="0.1" />
@@ -17,6 +18,7 @@
         <entry key="app/src/main/res/drawable/custom_item_border.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/custom_message_incoming.xml" value="0.141" />
         <entry key="app/src/main/res/drawable/custom_message_outgoing.xml" value="0.1365" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.135" />
         <entry key="app/src/main/res/drawable/tv_border.xml" value="0.1" />
         <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.10156768839681643" />
         <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.10032557920028604" />
@@ -24,6 +26,7 @@
         <entry key="app/src/main/res/layout/activity_ask.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.20758972167968756" />
         <entry key="app/src/main/res/layout/activity_communication.xml" value="0.11980749746707194" />
+        <entry key="app/src/main/res/layout/activity_content.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/activity_feeling.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/activity_food.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/activity_fun.xml" value="0.11980749746707194" />
@@ -31,7 +34,7 @@
         <entry key="app/src/main/res/layout/activity_love.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_scrolling.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_study.xml" value="0.22311712881472817" />
-        <entry key="app/src/main/res/layout/category_ads.xml" value="0.14837855288856908" />
+        <entry key="app/src/main/res/layout/category_ads.xml" value="0.38284518828451886" />
         <entry key="app/src/main/res/layout/category_advice.xml" value="0.11930091185410334" />
         <entry key="app/src/main/res/layout/category_ask.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/category_communication.xml" value="0.11930091185410334" />
@@ -45,6 +48,7 @@
         <entry key="app/src/main/res/layout/category_love.xml" value="0.1" />
         <entry key="app/src/main/res/layout/category_study.xml" value="0.11930091185410334" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_question.xml" value="0.11930091185410334" />
         <entry key="app/src/main/res/layout/message_incoming.xml" value="0.1" />
         <entry key="app/src/main/res/layout/message_outgoing.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/messages_outgoing.xml" value="0.11930091185410334" />
