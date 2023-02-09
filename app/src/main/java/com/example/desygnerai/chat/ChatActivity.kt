@@ -14,6 +14,7 @@ import com.example.desygnerai.service.RetrofitHelper
 import retrofit2.Call
 import retrofit2.Response
 import retrofit2.Retrofit
+import java.io.IOException
 
 
 class ChatActivity : AppCompatActivity() {
@@ -65,7 +66,7 @@ class ChatActivity : AppCompatActivity() {
     }
 
 
-    fun sendQuestion(questionRequest: String) {
+    private fun sendQuestion(questionRequest: String) {
         binding.textInput.text = null
         val prompt = Prompt(questionRequest)
         val text = Text(questionRequest)
@@ -75,13 +76,29 @@ class ChatActivity : AppCompatActivity() {
         val messageSend = Message(textSend, false)
         mMessages.add(messageSend)
         mAdapter.notifyDataSetChanged()
+        binding.rvChat.scrollToPosition(mMessages.size - 1)
 
         sendAPI.createQuestion(prompt).enqueue(
             object : retrofit2.Callback<Message> {
                 override fun onResponse(call: Call<Message>, response: Response<Message>) {
-                    val messageReceiver = Message(response.body()!!.messages, true)
-                    mMessages.add(messageReceiver)
-                    mAdapter.notifyDataSetChanged()
+                    try {
+                        if (response.code() == 200 && response.body() != null) {
+                            val messageReceiver = Message(response.body()!!.messages, true)
+                            mMessages.add(messageReceiver)
+                            mAdapter.notifyDataSetChanged()
+                            binding.rvChat.scrollToPosition(mMessages.size - 1)
+                        } else {
+                            Toast.makeText(
+                                this@ChatActivity,
+                                "Something wrong!",
+                                Toast.LENGTH_SHORT
+                            )
+                                .show()
+                        }
+                    } catch (e: IOException) {
+                        Toast.makeText(this@ChatActivity, "Something wrong!", Toast.LENGTH_SHORT)
+                            .show()
+                    }
                 }
 
                 override fun onFailure(call: Call<Message>, t: Throwable) {
