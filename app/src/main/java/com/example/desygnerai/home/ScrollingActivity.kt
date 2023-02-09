@@ -27,6 +27,7 @@ class ScrollingActivity : AppCompatActivity() {
 
         binding.ask.categoryAsk.setOnClickListener {
             val intent = Intent(this, ChatActivity::class.java)
+            intent.putExtra("question", "empty")
             startActivity(intent)
         }
 

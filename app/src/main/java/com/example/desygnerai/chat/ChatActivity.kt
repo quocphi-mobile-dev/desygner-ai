@@ -37,15 +37,21 @@ class ChatActivity : AppCompatActivity() {
 
         sendAPI = RetrofitHelper.getInstance().create(API::class.java)
 
+
         val arguments = requireNotNull(intent?.extras) {
             "Null data"
         }
 
-        with(arguments) {
-            val questionRequest = getString("question").toString()
-            Log.d("questionRequest",questionRequest)
-            sendQuestion(questionRequest)
+        if (!arguments.isEmpty) {
+            with(arguments) {
+                val questionRequest = getString("question").toString()
+                Log.d("questionRequest", questionRequest)
+                if (questionRequest != "Other" && questionRequest != "empty") {
+                    sendQuestion(questionRequest)
+                }
+            }
         }
+
 
         binding.btnSend.setOnClickListener {
             val questionRequest = binding.textInput.text.toString()

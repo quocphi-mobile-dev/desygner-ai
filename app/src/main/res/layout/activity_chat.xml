@@ -50,8 +50,6 @@
                 android:hint="@string/text_hint"
                 android:maxHeight="400dp"
                 android:textCursorDrawable="@drawable/color_cursor">
-
-                <requestFocus />
             </EditText>
 
             <ImageView
